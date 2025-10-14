@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Store</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- ✅ Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Optional: Custom Tailwind config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#4f46e5",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-gray-100 text-gray-800 p-8">
+    <h1 class="text-4xl font-bold text-primary mb-4">Welcome to my store!</h1>
+    <p class="text-lg">
+      This project uses Tailwind via CDN — no build tools required.
+    </p>
+  </body>
+</html>
